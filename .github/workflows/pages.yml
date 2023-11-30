@@ -7,7 +7,7 @@ on:
       - main
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  # Run on pull requests to master
+  # Run on pull requests to main
   pull_request:
     # Note that this specifies the target branch, not the branch that the PR is from
     branches:
@@ -80,8 +80,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
 
   deploy:
-    # Only run deployment from the master branch and not on pull requests
-    if: ${{ github.ref == 'refs/heads/master' && github.event_name != 'pull_request' }}
+    # Only run deployment from the main branch and not on pull requests
+    if: ${{ github.ref == 'refs/heads/main' && github.event_name != 'pull_request' }}
     needs:
       - build
     runs-on: ubuntu-latest
