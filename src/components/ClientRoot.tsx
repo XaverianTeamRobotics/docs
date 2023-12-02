@@ -3,8 +3,6 @@ import { NavbarBreadcrumbHeightContext } from "@site/src/utils/NavbarBreadcrumbH
 import { DocumentHeightContext } from "@site/src/utils/DocumentHeightContext";
 import { sidebarEventManager } from "@site/src/utils/sidebarEventManager";
 
-let log = true; // change to disable the "this is not an error" log
-
 export const ClientRoot: FC<unknown> = ({ children }): ReactElement => {
 
   const breadcrumbHeightState = useState(0);
@@ -54,14 +52,6 @@ export const ClientRoot: FC<unknown> = ({ children }): ReactElement => {
     }
 
     const sidebarEventManagerCleanup = sidebarEventManager();
-
-    if(log) {
-      console.log("%cNOTICE", "color: red; font-size: 64px;");
-      console.log("%cThe error:", "font-size: 22px;");
-      console.log("%cCannot update a component (`Root`) while rendering a different component (`NavbarHR`). To locate the bad setState() call inside `NavbarHR`, follow the stack trace as described in https://reactjs.org/link/setstate-in-render", "color: gray; font-size: 14px;");
-      console.log("%cis not an issue, and can be ignored.", "font-size: 22px;");
-      log = false;
-    }
 
     return () => {
       observer.disconnect();
