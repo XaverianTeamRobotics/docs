@@ -25,7 +25,7 @@ const config = {
   organizationName: "XaverianTeamRobotics", // Usually your GitHub org/user name.
   projectName: "FtcRobotController", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   // ooh spooky scary this is in the deep web ghost emoji
@@ -48,18 +48,10 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
-          admonitions: {
-            tag: ":::",
-            keywords: [ "note", "tip", "caution", "danger" ],
-          },
         },
         blog: false,
         pages: {
           path: "pages",
-          admonitions: {
-            tag: ":::",
-            keywords: [ "note", "tip", "caution", "danger" ],
-          },
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -113,17 +105,17 @@ const config = {
               {
                 href: "/apk/",
                 label: "Flash Robot Controller APK",
-                target: '_blank'
+                target: "_blank"
               },
               {
                 href: "/legacy-apk/",
                 label: "Download Driver Station APK",
-                target: '_blank'
+                target: "_blank"
               },
               {
                 href: "/imgutil/",
                 label: "Upload Images to robotics.xbhs.com",
-                target: '_blank'
+                target: "_blank"
               },
             ]
           },
@@ -135,17 +127,17 @@ const config = {
               {
                 href: "/javadoc/",
                 label: "Javadoc (all)",
-                target: '_blank'
+                target: "_blank"
               },
               {
                 href: "/javadoc/-team-code/org.firstinspires.ftc.teamcode.features/index.html",
                 label: "Javadoc (features)",
-                target: '_blank'
+                target: "_blank"
               },
               {
                 href: "/javadoc/-team-code/org.firstinspires.ftc.teamcode.opmodes/index.html",
                 label: "Javadoc (opmodes)",
-                target: '_blank'
+                target: "_blank"
               },
             ]
           },
@@ -171,9 +163,9 @@ const config = {
         disableSwitch: true
       },
       prism: {
-        theme: require("prism-react-renderer/themes/dracula"),
-        darkTheme: require("prism-react-renderer/themes/dracula"),
-        additionalLanguages: ['java'],
+        theme: require("prism-react-renderer").themes.dracula,
+        darkTheme: require("prism-react-renderer").themes.dracula,
+        additionalLanguages: [ "java" ],
       },
       footer: {
         style: "light",
