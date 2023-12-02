@@ -105,17 +105,17 @@ const config = {
               {
                 href: "/apk/",
                 label: "Flash Robot Controller APK",
-                target: '_blank'
+                target: "_blank"
               },
               {
                 href: "/legacy-apk/",
                 label: "Download Driver Station APK",
-                target: '_blank'
+                target: "_blank"
               },
               {
                 href: "/imgutil/",
                 label: "Upload Images to robotics.xbhs.com",
-                target: '_blank'
+                target: "_blank"
               },
             ]
           },
@@ -127,17 +127,17 @@ const config = {
               {
                 href: "/javadoc/",
                 label: "Javadoc (all)",
-                target: '_blank'
+                target: "_blank"
               },
               {
                 href: "/javadoc/-team-code/org.firstinspires.ftc.teamcode.features/index.html",
                 label: "Javadoc (features)",
-                target: '_blank'
+                target: "_blank"
               },
               {
                 href: "/javadoc/-team-code/org.firstinspires.ftc.teamcode.opmodes/index.html",
                 label: "Javadoc (opmodes)",
-                target: '_blank'
+                target: "_blank"
               },
             ]
           },
@@ -165,7 +165,7 @@ const config = {
       prism: {
         theme: require("prism-react-renderer").themes.dracula,
         darkTheme: require("prism-react-renderer").themes.dracula,
-        additionalLanguages: ['java'],
+        additionalLanguages: [ "java" ],
       },
       footer: {
         style: "light",

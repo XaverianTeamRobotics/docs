@@ -48,10 +48,6 @@ module.exports = {
         "@typescript-eslint/ban-ts-comment": [
           "off"
         ],
-        "linebreak-style": [
-          "error",
-          "unix"
-        ],
         "quotes": [
           "error",
           "double"

@@ -597,11 +597,7 @@ a:hover {
         padding-left: 0;
     }
 
-    .h-0 {
-        height: 0;
-    }
-
-    .d-n {
+    .navbar__brand {
         display: none;
     }
 
@@ -684,7 +680,7 @@ a:hover {
     .menu__list-item {
         cursor: pointer;
     }
-    
+
     .w-full {
         width: 100%;
         justify-content: center;
