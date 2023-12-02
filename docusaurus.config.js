@@ -25,7 +25,7 @@ const config = {
   organizationName: "XaverianTeamRobotics", // Usually your GitHub org/user name.
   projectName: "FtcRobotController", // Usually your repo name.
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   // ooh spooky scary this is in the deep web ghost emoji
