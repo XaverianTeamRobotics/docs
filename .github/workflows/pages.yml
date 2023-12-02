@@ -1,10 +1,8 @@
 name: Deploy static content to Pages
 
 on:
-  # Run on all pushes to main
+  # Run on all pushes
   push:
-    branches:
-      - main
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   # Run on pull requests to main
