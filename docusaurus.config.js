@@ -48,18 +48,10 @@ const config = {
         docs: {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
-          admonitions: {
-            tag: ":::",
-            keywords: [ "note", "tip", "caution", "danger" ],
-          },
         },
         blog: false,
         pages: {
           path: "pages",
-          admonitions: {
-            tag: ":::",
-            keywords: [ "note", "tip", "caution", "danger" ],
-          },
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -171,8 +163,8 @@ const config = {
         disableSwitch: true
       },
       prism: {
-        theme: require("prism-react-renderer/themes/dracula"),
-        darkTheme: require("prism-react-renderer/themes/dracula"),
+        theme: require("prism-react-renderer").themes.dracula,
+        darkTheme: require("prism-react-renderer").themes.dracula,
         additionalLanguages: ['java'],
       },
       footer: {
