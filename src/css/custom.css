@@ -1,5 +1,4 @@
 :root {
-    --doc-sidebar-width: 350px;
     --ifm-global-radius: 0.5rem;
     --ifm-card-border-radius: 0.5rem;
     --xb__white: #ffffff;
@@ -24,7 +23,6 @@
     --xb__transparent: transparent;
     --ifm-navbar-link-hover-color: var(--xb__accent);
     --ifm-color-primary: var(--xb__accent);
-    --ifm-scrollbar-track-background-color: var(--xb__transparent);
 }
 
 html {
@@ -38,12 +36,25 @@ html {
 
 .container {
     margin: 0;
+    padding: 2rem;
     max-width: 100% !important;
 }
 
 .dropdown__menu {
     background-color: var(--xb__background);
     border: 1px solid var(--xb__border-and-line-seperator);
+}
+
+.dropdown__link {
+    color: var(--xb__white);
+}
+
+.dropdown__link:hover {
+    color: var(--xb__accent);
+}
+
+.breadcrumbs {
+    position: sticky;
 }
 
 ::selection {
@@ -64,6 +75,10 @@ a:hover {
 
 .menu__link {
     color: var(--xb__white);
+}
+
+.menu__link:hover {
+    color: var(--xb__accent);
 }
 
 .menu__link--active {
@@ -92,5 +107,13 @@ a:hover {
 .navbar {
     background-color: var(--xb__background);
     border-bottom: 1px solid var(--xb__border-and-line-seperator);
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
+}
+
+.theme-doc-sidebar-container {
+    border: none !important;
+}
+
+.table-of-contents__left-border {
+    border-left: 1px solid var(--xb__border-and-line-seperator);
 }
