@@ -23,7 +23,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "XaverianTeamRobotics", // Usually your GitHub org/user name.
-  projectName: "FtcRobotController", // Usually your repo name.
+  projectName: "docs", // Usually your repo name.
 
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
@@ -89,7 +89,7 @@ const config = {
               },
               {
                 type: "html",
-                value: `${ "" } <a class="dropdown__link" href="./v1.1.0">1.1.0</a>`,
+                value: `${ "" } <a class="dropdown__link" href="./v1.1.0/">1.1.0</a>`,
               },
               {
                 type: "html",
@@ -103,17 +103,12 @@ const config = {
             position: "right",
             items: [
               {
-                href: "/apk/",
+                href: "https://xaverianteamrobotics.github.io/webinstaller",
                 label: "Flash Robot Controller APK",
                 target: "_blank"
               },
               {
-                href: "/legacy-apk/",
-                label: "Download Driver Station APK",
-                target: "_blank"
-              },
-              {
-                href: "/imgutil/",
+                href: "https://xaverianteamrobotics.github.io/imgutil",
                 label: "Upload Images to robotics.xbhs.com",
                 target: "_blank"
               },
@@ -125,17 +120,17 @@ const config = {
             position: "right",
             items: [
               {
-                href: "/javadoc/",
+                href: "https://xaverianteamrobotics.github.io/FtcRobotController",
                 label: "Javadoc (all)",
                 target: "_blank"
               },
               {
-                href: "/javadoc/-team-code/org.firstinspires.ftc.teamcode.features/index.html",
+                href: "https://xaverianteamrobotics.github.io/FtcRobotController/-team-code/org.firstinspires.ftc.teamcode.features/index.html",
                 label: "Javadoc (features)",
                 target: "_blank"
               },
               {
-                href: "/javadoc/-team-code/org.firstinspires.ftc.teamcode.opmodes/index.html",
+                href: "https://xaverianteamrobotics.github.io/FtcRobotController/-team-code/org.firstinspires.ftc.teamcode.opmodes/index.html",
                 label: "Javadoc (opmodes)",
                 target: "_blank"
               },
