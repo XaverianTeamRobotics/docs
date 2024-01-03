@@ -3,6 +3,9 @@ title: Project Structure
 sidebar_position: 1
 ---
 
+:::tip
+This page is stale. Please refer to [How to Robot: The Book](/theBook.pdf), Chapter 2.
+:::
 # Project Structure
 
 ## The main modules
