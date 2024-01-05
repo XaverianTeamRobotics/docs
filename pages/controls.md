@@ -20,6 +20,8 @@ Buttons with different names for Playstation and Xbox controllers will have both
 | Airplane Launcher: Lower |   Left Bumper |
 | Airplane Launcher: Raise |  Right Bumper |
 | Aitplane Launcher: Fire  |  Triangle / Y |
+| Lifter: Extend           |  Right Triger |
+| Lifter: Retract          |  Left Trigger |
 
 ## Driver 2
 | Action                          |           Binding |
