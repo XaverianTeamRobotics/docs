@@ -12,11 +12,14 @@ Buttons with different names for Playstation and Xbox controllers will have both
 :::
 
 ## Driver 1
-| Action            |       Binding |
-|:------------------|--------------:|
-| Move Forward/Back |  Left Stick Y |
-| Move Left/Right   |  Left Stick X |
-| Turn              | Right Stick X |
+| Action                   |       Binding |
+|:-------------------------|--------------:|
+| Move Forward/Back        |  Left Stick Y |
+| Move Left/Right          |  Left Stick X |
+| Turn                     | Right Stick X |
+| Airplane Launcher: Lower |   Left Bumper |
+| Airplane Launcher: Raise |  Right Bumper |
+| Aitplane Launcher: Fire  |  Triangle / Y |
 
 ## Driver 2
 | Action                          |           Binding |
