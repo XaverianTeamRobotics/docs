@@ -19,16 +19,19 @@ Buttons with different names for Playstation and Xbox controllers will have both
 | Turn              | Right Stick X |
 
 ## Driver 2
-| Action                          |       Binding |
-|:--------------------------------|--------------:|
-| Raise Arm                       | Right Trigger |
-| Lower Arm                       |  Left Trigger |
-| Toggle Left Grabber             |    D-Pad Left |
-| Toggle Right Grabber            |   D-Pad Right |
-| Selector: Block Left Grabber    |   Left Bumper |
-| Selector: Block Right Grabber   |  Right Bumper |
-| Rotate Claw: Servo 1            |  Left Stick X |
-| Rotate Claw: Servo 2            | Right Stick X |
-| Rotate Claw: Pickup Preset      |  Triangle / Y |
-| Pixel Holder: Intake Position   |    Square / X |
-| Pixel Holder: Grabbing Position |    Circle / B |
+| Action                          |           Binding |
+|:--------------------------------|------------------:|
+| Raise Arm                       |     Right Trigger |
+| Lower Arm                       |      Left Trigger |
+| Toggle Left Grabber             |        D-Pad Left |
+| Toggle Right Grabber            |       D-Pad Right |
+| Selector: Block Left Grabber    |       Left Bumper |
+| Selector: Block Right Grabber   |      Right Bumper |
+| Rotate Claw: Servo 1            |      Left Stick X |
+| Rotate Claw: Servo 2            |     Right Stick X |
+| Rotate Claw: Pickup Preset      |      Triangle / Y |
+| Pixel Holder: Intake Position   |        Square / X |
+| Pixel Holder: Grabbing Position |        Circle / B |
+| Intake: Flip Down               | Right Stick Press |
+| Intake: Toggle Power            |        D-Pad Down |
+| Intake: Reverse                 |          D-Pad Up |
