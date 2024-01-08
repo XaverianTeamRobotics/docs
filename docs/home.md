@@ -30,6 +30,11 @@ You can also use the [OnBot Java Editor](https://github.com/FIRST-Tech-Challenge
 ## Need Help?
 To get help, check out the following support resources:
 
+### Guides
+* [How to Robot: The Book](/theBook.pdf)
+* [Getting Started](/getting-started/Download)
+* [Auto Auto User's Guide](/auto-auto-users-guide.pdf)
+
 ### Wikis & Fourms
 * [*FIRST* Online Documentation](https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki)
 * [GM0 Software Section](https://gm0.org/en/latest/docs/software/index.html)
