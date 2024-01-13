@@ -12,16 +12,17 @@ Buttons with different names for Playstation and Xbox controllers will have both
 :::
 
 ## Driver 1
-| Action                   |       Binding |
-|:-------------------------|--------------:|
-| Move Forward/Back        |  Left Stick Y |
-| Move Left/Right          |  Left Stick X |
-| Turn                     | Right Stick X |
-| Airplane Launcher: Lower |   Left Bumper |
-| Airplane Launcher: Raise |  Right Bumper |
-| Aitplane Launcher: Fire  |  Triangle / Y |
-| Lifter: Extend           |  Right Triger |
-| Lifter: Retract          |  Left Trigger |
+| Action                   |           Binding |
+|:-------------------------|------------------:|
+| Move Forward/Back        |      Left Stick Y |
+| Move Left/Right          |      Left Stick X |
+| Turn                     |     Right Stick X |
+| Airplane Launcher: Lower |       Left Bumper |
+| Airplane Launcher: Raise |      Right Bumper |
+| Aitplane Launcher: Fire  |      Triangle / Y |
+| Lifter: Extend           |      Right Triger |
+| Lifter: Retract          |      Left Trigger |
+| Intake: Flip Down        | Right Stick Press |
 
 ## Driver 2
 | Action                          |           Binding |
@@ -35,8 +36,9 @@ Buttons with different names for Playstation and Xbox controllers will have both
 | Rotate Claw: Servo 1            |      Left Stick X |
 | Rotate Claw: Servo 2            |     Right Stick X |
 | Rotate Claw: Pickup Preset      |      Triangle / Y |
+| Rotate Claw: Flat Preset        |  Left Stick Press |
+| Rotate Claw: Scoring Preset     | Right Stick Press |
 | Pixel Holder: Intake Position   |        Square / X |
 | Pixel Holder: Grabbing Position |        Circle / B |
-| Intake: Flip Down               | Right Stick Press |
 | Intake: Toggle Power            |        D-Pad Down |
 | Intake: Reverse                 |          D-Pad Up |
