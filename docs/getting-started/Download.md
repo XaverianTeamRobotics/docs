@@ -4,7 +4,7 @@ sidebar_position: 0
 ---
 
 :::tip
-Our Getting Started guide is designed for people who have some experience with programming. It will not cover Java basics.
+This page is stale. Please refer to [How to Robot: The Book](/theBook.pdf), Prerequisites section and Chapter 1.
 :::
 # Installing Android Studio
 
