@@ -150,6 +150,11 @@ const config = {
             position: "right",
             type: "html",
             value: `${ "" } <a class="navbar__link" href="/theBook.pdf">How to Robot: The Book</a>`,
+          },
+          {
+            href: "https://xaverianteamrobotics.github.io/FtcRobotController/controls",
+            label: "Controls",
+            position: "right",
           }
         ]
       },
