@@ -33,7 +33,7 @@ To get help, check out the following support resources:
 ### Guides
 * [How to Robot: The Book](/theBook.pdf)
 * [Getting Started](/getting-started/Download)
-* [Auto Auto User's Guide](/auto-auto-users-guide.pdf)
+* [Auto Auto User's Guide](/auto)
 
 ### Wikis & Fourms
 * [*FIRST* Online Documentation](https://github.com/FIRST-Tech-Challenge/FtcRobotController/wiki)
