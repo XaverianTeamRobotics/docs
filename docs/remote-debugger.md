@@ -78,3 +78,8 @@ RDWebSocketServer.enableMotorStatic(0);
 :::danger
 If your OpMode persistently sets its own value for a motor, it will override the value set by the Remote Debugger.
 :::
+
+Note: you can enable a range motors in one by calling enableMotorStatic with the first and last motor you want enabled.
+```java
+RDWebSocketServer.enableMotorStatic(0, 3);
+```
