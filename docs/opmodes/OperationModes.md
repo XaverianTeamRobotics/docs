@@ -1,6 +1,7 @@
 ---
 title: OperationModes
-sidebar_position: 2
+sidebar_position: 1
+pagination_prev: null
 ---
 
 # OperationModes
