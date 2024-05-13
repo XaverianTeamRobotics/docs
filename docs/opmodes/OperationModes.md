@@ -24,13 +24,13 @@ is not a recommended practice.
 
 ## Example OperationMode
 
-```java
-public class MyOperationMode extends OperationMode implements TeleOperation {
-    public void construct() {
+```kotlin
+class MyOperationMode: OperationMode(), TeleOperation {
+    override fun construct() {
         // This is called once when the user presses the Init button
     }
 
-    public void run() {
+    override fun run() {
         // This is called repeatedly when the user presses the Play button
     }
 }
