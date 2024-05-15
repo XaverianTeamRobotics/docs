@@ -21,6 +21,12 @@ Kotlin provides a set of math operators that you can use to perform basic arithm
 
 - Increment and Decrement: The `++` and `--` operators are used to increment and decrement a number by `1` respectively. For example, `var count = 0; count++` will increment the value of `count` by `1`.
 
+- Compound Assignment: Kotlin also provides compound assignment operators that allow you to perform an operation and assign the result to the same variable in a single step. Here are some examples:
+    - Addition Assignment: The `+=` operator is used to add a value to a variable and assign the result back to the same variable. For example, `var num = 5; num += 3` will add `3` to the value of `num` and assign the result `8` back to `num`.
+    - Subtraction Assignment: The `-=` operator is used to subtract a value from a variable and assign the result back to the same variable. For example, `var num = 10; num -= 5` will subtract `5` from the value of `num` and assign the result `5` back to `num`.
+    - Multiplication Assignment: The `*=` operator is used to multiply a variable by a value and assign the result back to the same variable. For example, `var num = 2; num *= 4` will multiply `2` by `4` and assign the result `8` back to `num`.
+    - Division Assignment: The `/=` operator is used to divide a variable by a value and assign the result back to the same variable. For example, `var num = 10; num /= 2` will divide `10` by `2` and assign the result `5` back to `num`.
+
 These are just a few examples of the math operators available in Kotlin. You can use them to perform various calculations and manipulate numeric values in your code.
 
 ## Boolean Operators
