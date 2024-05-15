@@ -68,14 +68,16 @@ In Kotlin, functions exist similarly. They have a name, can take in inputs, and 
 we write the special `fun` keyword, then the name of the function, its inputs, and the function body. 
 
 The inputs to the function are called *parameters*. In Kotlin, we write the parameters by writing the name of the parameter,
-a colon (`:`), and the data type of the parameter.
+a colon (`:`), and the data type of the parameter. At the end of the paramaters, we also need to add a colon(`:`) and our
+return type, or nothing if we don't want to return anything.
 
-To return some value from the function, we simply write `return` and then the value that we want to return.
+To return some value from the function, we simply write `return` and then the value that we want to return. At the end of 
+the paramaters, we also need to add a colon(`:`) and our return type, or nothing if we don't want to return anything.
 
 Here is a sample function in Kotlin.
 
 ```kotlin
-fun add(a: Int, b: Int) {
+fun add(a: Int, b: Int): Int {
     return a + b
 }
 ```
