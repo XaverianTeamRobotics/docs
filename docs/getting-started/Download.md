@@ -4,7 +4,7 @@ sidebar_position: 0
 ---
 
 :::tip
-This page is stale. Please refer to [How to Robot: The Book](/theBook.pdf), Prerequisites section and Chapter 1.
+We are currently working on improving this section
 :::
 # Installing Android Studio
 

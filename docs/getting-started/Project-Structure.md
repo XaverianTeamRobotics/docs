@@ -4,7 +4,7 @@ sidebar_position: 1
 ---
 
 :::tip
-This page is stale. Please refer to [How to Robot: The Book](/theBook.pdf), Chapter 2.
+We are currently working on improving this section
 :::
 # Project Structure
 
