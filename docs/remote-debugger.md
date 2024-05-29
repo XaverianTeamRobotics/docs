@@ -1,4 +1,5 @@
 ---
+sidebar_position: 7
 title: Remote Debugger
 sidebar_label: Remote Debugger
 pagination_prev: null

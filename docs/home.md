@@ -33,7 +33,6 @@ To get help, check out the following support resources:
 ### Guides
 * [How to Robot: The Book](/theBook.pdf)
 * [Getting Started](/getting-started/Download)
-* [Auto Auto User's Guide](/auto)
 * [Controls](https://xaverianteamrobotics.github.io/FtcRobotController/controls/)
 
 ### Wikis & Fourms

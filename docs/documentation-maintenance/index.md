@@ -3,7 +3,7 @@ pagination_prev: null
 ---
 # Documentation Maintenance
 
-On the main FtcRobotController repository, the docs are stored under HelpPage/doc.
+This code is stored on the `docs` repository.
 
 Use `npm install` to install the dependencies and `npm run start` to start the development server.
 :::tip
