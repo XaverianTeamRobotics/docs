@@ -16,16 +16,16 @@
     "lint": "eslint --fix **/*.{js,jsx,ts,tsx,cjs,mjs,cts,mts}"
   },
   "dependencies": {
-    "@docusaurus/core": "3.3.2",
-    "@docusaurus/preset-classic": "3.3.2",
+    "@docusaurus/core": "3.4.0",
+    "@docusaurus/preset-classic": "3.4.0",
     "prism-react-renderer": "^2.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@docusaurus/eslint-plugin": "^3.3.2",
-    "@docusaurus/module-type-aliases": "3.3.2",
-    "@docusaurus/tsconfig": "^3.3.2",
+    "@docusaurus/eslint-plugin": "^3.4.0",
+    "@docusaurus/module-type-aliases": "3.4.0",
+    "@docusaurus/tsconfig": "^3.4.0",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
     "eslint": "^8.57.0",
@@ -33,7 +33,7 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.2.0",
-    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react": "^7.34.2",
     "typescript": "^5.4.5"
   },
   "browserslist": {
